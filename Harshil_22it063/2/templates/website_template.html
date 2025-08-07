@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            {% for item in nav %}
+            <li><a href="#">{{ item }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+
+    <main>
+        {% for section in sections %}
+        <section>
+            <h2>{{ section.title }}</h2>
+            <p>{{ section.content }}</p>
+        </section>
+        {% endfor %}
+    </main>
+</body>
+</html>
