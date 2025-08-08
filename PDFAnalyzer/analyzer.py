@@ -17,7 +17,7 @@ SECTION_LIMITS = {
     "qualification": 4
 }
 
-GEMINI_API_KEY = os.getenv("AIzaSyB65q77xvg4768Fbq4qn1hCFVZUOPtd_yM")  # or hardcode if local
+GEMINI_API_KEY = os.getenv("")  # or hardcode if local
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
 
 
